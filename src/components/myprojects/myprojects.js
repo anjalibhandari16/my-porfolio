@@ -2,6 +2,7 @@ import React from 'react'
 import './myprojects.css'
 import IMG1 from '../../assets/img5.jpg'
 import IMG2 from '../../assets/img2.png'
+import IMG3 from '../../assets/img3.png'
 import IMG4 from '../../assets/img4.png'
 
 const Myprojects = () => {
@@ -24,6 +25,18 @@ const Myprojects = () => {
               <a href="https://weather-forecast-application-teal.vercel.app/" target="_blank" rel='noreferrer' className='btn btn-primary'>Visit Website</a>  
             </div>
               
+        </article>
+        <article className='portfolio__item'>
+            <div className="portfolio__item-image">
+                <img src={IMG3} alt="" />
+            </div>
+            <h3>Amazon Clone</h3>
+            <small className='text-light'>HTML | CSS</small>
+            <div className="portfolio__item-cta">
+              <a href="https://github.com/anjalibhandari16/amazon-clone" target="_blank" rel='noreferrer' className='btn'>Github</a>  
+              <a href="https://amazon-clone-iota-two.vercel.app/" target="_blank" rel='noreferrer' className='btn btn-primary'>Visit Website</a>  
+            </div>
+            
         </article>
         <article className='portfolio__item'>
             <div className="portfolio__item-image">
