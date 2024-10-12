@@ -31,6 +31,7 @@ const Myprojects = () => {
                 <img src={IMG3} alt="" />
             </div>
             <h3>Amazon Clone</h3>
+            <h3><pre> </pre></h3>
             <small className='text-light'>HTML | CSS</small>
             <div className="portfolio__item-cta">
               <a href="https://github.com/anjalibhandari16/amazon-clone" target="_blank" rel='noreferrer' className='btn'>Github</a>  
