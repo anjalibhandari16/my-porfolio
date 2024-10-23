@@ -4,6 +4,7 @@ import IMG1 from '../../assets/img5.jpg'
 import IMG2 from '../../assets/img2.png'
 import IMG3 from '../../assets/img3.png'
 import IMG4 from '../../assets/img4.png'
+import IMG5 from '../../assets/img6.png'
 
 const Myprojects = () => {
   return (
@@ -13,6 +14,20 @@ const Myprojects = () => {
       <h2>Projects</h2>
 
       <div className="container portfolio__container">
+
+      <article className='portfolio__item'>
+            <div className="portfolio__item-image">
+                <img src={IMG5} alt="" />
+            </div>
+            <h3>Fitness Slot Booking System</h3>
+            <h3><pre> </pre></h3>
+            <small className='text-light'>ReactJs | HTML | CSS | JS </small>
+            <div className="portfolio__item-cta">
+              <a href="https://github.com/anjalibhandari16/fitness-slot-booking-system" target="_blank" rel='noreferrer' className='btn'>Github</a>
+              <a href="https://fitness-slot-booking-system.vercel.app/" target="_blank" rel='noreferrer' className='btn btn-primary'>Visit Website</a>  
+            </div>
+              
+        </article>
 
         <article className='portfolio__item'>
             <div className="portfolio__item-image">
