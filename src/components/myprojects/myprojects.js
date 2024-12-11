@@ -37,7 +37,7 @@ const Myprojects = () => {
             </div>
             <h3>Simon Game</h3>
             <h3><pre> </pre></h3>
-            <small className='text-light'>ReactJs | HTML | CSS | JS </small>
+            <small className='text-light'>HTML | CSS | JS </small>
             <div className="portfolio__item-cta">
               <a href="https://github.com/anjalibhandari16/Simon-Game" target="_blank" rel='noreferrer' className='btn'>Github</a>
               <a href="https://simon-game-black-xi.vercel.app/" target="_blank" rel='noreferrer' className='btn btn-primary'>Visit Website</a>  
