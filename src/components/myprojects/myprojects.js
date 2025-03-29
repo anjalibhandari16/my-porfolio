@@ -6,6 +6,9 @@ import IMG3 from '../../assets/img3.png'
 import IMG4 from '../../assets/img4.png'
 import IMG5 from '../../assets/img6.png'
 import IMG6 from '../../assets/img7.png'
+import IMG8 from '../../assets/img8.png'
+import IMG9 from '../../assets/img9.png'
+
 
 
 const Myprojects = () => {
@@ -19,19 +22,18 @@ const Myprojects = () => {
 
       <article className='portfolio__item'>
             <div className="portfolio__item-image">
-                <img src={IMG5} alt="" />
+                <img src={IMG8} alt="" />
             </div>
-            <h3>Fitness Slot Booking System</h3>
+            <h3>Image Annotation Tool</h3>
             <h3><pre> </pre></h3>
-            <small className='text-light'>ReactJs | HTML | CSS | JS </small>
+            <small className='text-light'>ReactJs | JS | HTML | CSS </small>
             <div className="portfolio__item-cta">
-              <a href="https://github.com/anjalibhandari16/fitness-slot-booking-system" target="_blank" rel='noreferrer' className='btn'>Github</a>
-              <a href="https://fitness-slot-booking-system.vercel.app/" target="_blank" rel='noreferrer' className='btn btn-primary'>Visit Website</a>  
-            </div>
-              
-        </article>
+              <a href="https://github.com/anjalibhandari16/image-annotation" target="_blank" rel='noreferrer' className='btn'>Github</a>
+              <a href="https://image-annotation-eta.vercel.app/" target="_blank" rel='noreferrer' className='btn btn-primary'>Visit Website</a>  
+            </div>  
+      </article>
 
-        <article className='portfolio__item'>
+      <article className='portfolio__item'>
             <div className="portfolio__item-image">
                 <img src={IMG6} alt="" />
             </div>
@@ -42,8 +44,21 @@ const Myprojects = () => {
               <a href="https://github.com/anjalibhandari16/Simon-Game" target="_blank" rel='noreferrer' className='btn'>Github</a>
               <a href="https://simon-game-black-xi.vercel.app/" target="_blank" rel='noreferrer' className='btn btn-primary'>Visit Website</a>  
             </div>
-              
         </article>
+
+      <article className='portfolio__item'>
+            <div className="portfolio__item-image">
+                <img src={IMG5} alt="" />
+            </div>
+            <h3>Fitness Slot Booking System</h3>
+            <h3><pre> </pre></h3>
+            <small className='text-light'>ReactJs | HTML | CSS | JS </small>
+            <div className="portfolio__item-cta">
+              <a href="https://github.com/anjalibhandari16/fitness-slot-booking-system" target="_blank" rel='noreferrer' className='btn'>Github</a>
+              <a href="https://fitness-slot-booking-system.vercel.app/" target="_blank" rel='noreferrer' className='btn btn-primary'>Visit Website</a>  
+            </div>  
+        </article>
+
 
         <article className='portfolio__item'>
             <div className="portfolio__item-image">
@@ -55,8 +70,8 @@ const Myprojects = () => {
               <a href="https://github.com/anjalibhandari16/weather-forecast-application" target="_blank" rel='noreferrer' className='btn'>Github</a>
               <a href="https://weather-forecast-application-teal.vercel.app/" target="_blank" rel='noreferrer' className='btn btn-primary'>Visit Website</a>  
             </div>
-              
         </article>
+
         <article className='portfolio__item'>
             <div className="portfolio__item-image">
                 <img src={IMG3} alt="" />
@@ -67,9 +82,21 @@ const Myprojects = () => {
             <div className="portfolio__item-cta">
               <a href="https://github.com/anjalibhandari16/amazon-clone" target="_blank" rel='noreferrer' className='btn'>Github</a>  
               <a href="https://amazon-clone-iota-two.vercel.app/" target="_blank" rel='noreferrer' className='btn btn-primary'>Visit Website</a>  
-            </div>
-            
+            </div>            
         </article>
+
+        <article className='portfolio__item'>
+            <div className="portfolio__item-image">
+                <img src={IMG9} alt="" />
+            </div>
+            <h3>E-commerce App</h3>
+            <small className='text-light'>HTML | CSS | JS </small>
+            <div className="portfolio__item-cta">
+              <a href="https://github.com/anjalibhandari16/Trustco" target="_blank" rel='noreferrer' className='btn'>Github</a>  
+              <a href="https://trustco.vercel.app/" target="_blank" rel='noreferrer' className='btn btn-primary'>Visit Website</a>  
+            </div>
+        </article>
+
         <article className='portfolio__item'>
             <div className="portfolio__item-image">
                 <img src={IMG2} alt="" />
@@ -82,6 +109,7 @@ const Myprojects = () => {
             </div>
             
         </article>
+
         <article className='portfolio__item'>
             <div className="portfolio__item-image">
                 <img src={IMG4} alt="" />
@@ -92,8 +120,8 @@ const Myprojects = () => {
               <a href="https://github.com/anjalibhandari16/my-porfolio" target="_blank" rel='noreferrer' className='btn'>Github</a>
               <a href="https://my-porfolio-anjalibhandari.vercel.app/" target="_blank" rel='noreferrer' className='btn btn-primary'>Visit Website</a>  
             </div>
-            
         </article>
+
       </div>
     </section>
   )

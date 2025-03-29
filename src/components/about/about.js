@@ -51,13 +51,13 @@ const About = () => {
                     </div>
                     <p>
                         <p>
-                            I'm an <b>Experienced Associate Software Engineer </b>
-                            with expertise in React.js, Javascript, and CSS.
+                            I'm an <b>Experienced Software Engineer </b>
+                            with expertise in React.js, Redux, Javascript, HTML5 and CSS3.
                             Proven track record in creating user-friendly interfaces and implementing robust systems.
                             Skilled in leading development and implementation of innovative features, code reviews, and migration of business processes.
                         </p>
                         <p>
-                            I have 1.2 years of professional experience working at Cogoport, where I contributed to the shipment and logistics domain, and 10 months of internship experience as a full stack developer at TCS.
+                            I have 2.4 years of professional experience working at Cogoport and WebAffinity, where I contributed to the shipment and logistics domain, and 10 months of internship experience as a full stack developer at TCS.
                         </p>
 
 
